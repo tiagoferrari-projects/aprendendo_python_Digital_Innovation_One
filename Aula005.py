@@ -25,7 +25,7 @@ print(lista_numerica)
 # --------------------------LISTA ---------------------------------- #
 # print(lista_animal[1])
 
-# # sorte ordena os elementos
+# # sort ordena os elementos
 # lista.sort()
 # lista_animal.sort()
 # print(lista)
