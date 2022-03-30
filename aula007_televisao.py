@@ -26,21 +26,23 @@ class Televisao:
             #decrementa o canal de 1 em 1
             self.canal -= 1
 
-televisao = Televisao()
 
-print('Televisão está ligada: {}'.format(televisao.ligada))
-televisao.power()
-print('Televisão está ligada: {}'.format(televisao.ligada))
-televisao.power()
-print('Televisão está ligada: {}'.format(televisao.ligada))
+if __name__ == '__main__':
+    televisao = Televisao()
 
-print('Canal: {}'.format(televisao.canal))
-televisao.power()
-print('Televisão está ligada: {}'.format(televisao.ligada))
-televisao.aumenta_canal()
-televisao.aumenta_canal()
-print('Canal: {}'.format(televisao.canal))
-televisao.diminui_canal()
-televisao.diminui_canal()
-televisao.diminui_canal()
-print('Canal: {}'.format(televisao.canal))
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    televisao.power()
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    televisao.power()
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+
+    print('Canal: {}'.format(televisao.canal))
+    televisao.power()
+    print('Televisão está ligada: {}'.format(televisao.ligada))
+    televisao.aumenta_canal()
+    televisao.aumenta_canal()
+    print('Canal: {}'.format(televisao.canal))
+    televisao.diminui_canal()
+    televisao.diminui_canal()
+    televisao.diminui_canal()
+    print('Canal: {}'.format(televisao.canal))
